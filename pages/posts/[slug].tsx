@@ -28,11 +28,6 @@ const lastMGID = `<!-- Composite Start -->
 </div>
 <script src="https://jsc.mgid.com/t/h/thesenholding.com.1376798.js" async>
 </script>
-<!-- Composite End --><!-- Composite Start -->
-<div id="M838848ScriptRootC1376798">
-</div>
-<script src="https://jsc.mgid.com/t/h/thesenholding.com.1376798.js" async>
-</script>
 <!-- Composite End -->`;
 
 const autoGA = `<script async src="https://www.googletagmanager.com/gtag/js?id=UA-45012531-1"></script>
@@ -107,7 +102,7 @@ export default function Post({ post, posts, preview }) {
               />
               
 
-              <PostBody content={prefix_insert_after_paragraph(post.content, adsMGID, 3)}
+              <PostBody content={prefix_insert_after_paragraph(post.content, adsMGID, 5)}
               />
 
               <PostBody content={insertLastMGID(post.content)} />
